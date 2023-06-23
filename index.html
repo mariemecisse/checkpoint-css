@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'/>
+    <link rel="stylesheet" href="style.css" />
+    <title>Checkpoint html</title>
+  </head>
+
+  <body>
+    <!-- Navbar -->
+    <header>
+      <img id="logonav" src="moi.JPG" />
+      <nav>
+        <ul>
+          <li>
+            <a href="">Acceuil</a>
+          </li>
+          <li>
+            <a href="">A propos</a>
+          </li>
+          <li>
+            <a href="">Travail</a>
+          </li>
+          <li>
+            <a href="">CV</a>
+          </li>
+          <li>
+            <a href="">Contact</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <!-- Section Acceuil-->
+      <h1 id="titre">Bienvenue sur mon Portofolio</h1>
+      <div id="presentation">
+        <video controls autoplay>
+          <source src="videoportfolio.mp4" type="video/mp4" />
+        </video>
+      </div>
+
+      <div class="contenu">
+        <!-- Section travail -->
+        <div>
+          <h3 class="titre">Travail</h3>
+          <div>
+            <h4>Responsable facturation a TSK GROUP</h4>
+            <ul type="Disc">
+              <li>Chargée de factures de transport</li>
+              <li>Chargée de relation clients</li>
+              <li>Chargée de la gestion de caisse</li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- Section CV-->
+        <div>
+          <h3 class="titre">CV</h3>
+          <div>
+            <h4>Licence en Sciences Economique et Gestion</h4>
+            <ul type="Disc">
+              <li>Date d'entrée:2016</li>
+              <li>Date de sortie: 2019</li>
+              <li>Ecole: Université de Thies</li>
+            </ul>
+          </div>
+          <div>
+            <h4>Baccalaureat S2</h4>
+            <ul type="Disc">
+              <li>Année: 2015-2016</li>
+              <li>Ecole: Ecole Privée Anne Marie Javouhey</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="contenu">
+        <!-- Section a propos -->
+        <div id="apropos">
+          <h3 class="titre">A propos</h3>
+          <div>
+            <div>Nom: <b> CISSE</b></div>
+            <div>Prenom : <b> Mame Marieme</b></div>
+            <div>Date de naissance: <b> 02/01/1997</b></div>
+          </div>
+        </div>
+
+        <!-- Section Contact-->
+        <div>
+          <h3 class="titre">Contact</h3>
+          <form action="">
+            <div>Telephone <input type="number" /></div>
+            <br />
+            <div>Adresse <input type="text" /></div>
+            <br />
+            <div>Mail <input type="email" /></div>
+            <br />
+          </form>
+        </div>
+      </div>
+    </main>
+
+    <footer>
+      <!-- Pied de page -->
+      <p>Copyright © Mon portfolio 2023</p>
+    </footer>
+  </body>
+</html>
